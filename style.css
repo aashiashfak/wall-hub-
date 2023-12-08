@@ -1,0 +1,289 @@
+*{
+    margin: 0px;
+}
+.main-head{
+    position: sticky;
+        top: 0;
+}
+header{
+    width: 100%;
+    display: flex;
+    background-color:#111;
+   
+}
+.logo{
+    width: 117px;
+    height: 86px;
+    margin: 0px;
+    float: left;
+}
+header input{
+    margin-top: 21px;
+     float: left;
+     margin-left: 22px;
+     width: 300px;
+     padding: 11px 18px 10px 15px;
+     border-radius: 25px;
+    border: solid 1px;
+    outline: none;
+    color: #CB218E;
+}
+.system-icon{
+    float: left;
+    width: 24px;
+    margin: 34px 3px 1px 6px;
+    cursor: pointer;
+ } 
+
+.header-2{
+    display: flex;
+    align-items: center;
+    text-align: end;
+    padding: 25px 25px 25px 400px;
+} 
+header ul a{
+    text-decoration: none;
+    color: darkgray;
+}
+header ul a:hover{
+    color: #fff;
+}
+header li{
+    list-style-type: none;
+    display: inline;
+    margin-left: 30px;
+    font-size: 17px;
+}
+
+.types{
+    padding: 25px 0px;
+}
+.types li{
+    padding: 7px 25px;
+        background-color: rgb(255, 255, 255, 0.5);
+        border-radius: 6px;
+}
+.types a{
+    color: #fff;
+}
+.types a:hover{
+    color: darkgray;
+}
+
+
+.quotes{
+    background-image: linear-gradient(to right,#CB218E,#6617CB);
+    padding: 40px 30px;
+    text-align: center;
+}
+.quotes h1{
+    color: #fff;
+        font-size: 40px;
+        line-height: 2;
+}
+.quotes p{
+    font-size: 31px;
+}
+.gallery-1{
+    background-color:#111;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-rows:  1fr 1fr 1fr 1fr;
+    grid-template-areas: "pic1 pic2 pic3"
+            "pic4 pic2 pic5"
+            "pic6 pic7 pic8"
+            "pic6 pic9 pic8";
+    grid-row-gap: 30px;
+    grid-column-gap:30px;
+  
+}
+.pic1{
+    grid-area: pic1;
+    padding-top: 40px;
+}
+.pic2{
+    grid-area: pic2;
+}
+.pic3{
+    grid-area: pic3; 
+    padding-top: 40px;
+}
+.pic4{
+    grid-area: pic4; 
+}
+.pic5{
+    grid-area: pic5; 
+}
+.pic6{
+    grid-area: pic6;      
+}
+.pic7{
+    grid-area: pic7;
+    padding-top: 40px;
+}
+.pic8{
+    grid-area: pic8;    
+}
+.pic9{
+    grid-area: pic9;      
+}
+.w-img{
+    cursor: pointer;
+    width: 368px;
+        height: 210px;
+    }
+.h-img{
+    cursor: pointer;
+        width: 367px;
+        height: 535px;
+}
+
+.vid{
+    background-color: #111;
+}
+video{
+    padding: 50px;
+    width: 92%;
+}
+
+
+.table-gallery{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#111;
+}
+.table-gallery a{
+    color: darkgrey; 
+    text-decoration: none;
+}
+.table-gallery a:hover{
+    text-decoration: underline;
+    color: #fff; 
+}
+.table-gallery th{
+    text-align: left;
+    color: #fff;  
+    padding-right: 20px;
+    margin: 0px;
+
+}
+.table-gallery li{
+    display: inline;
+    color: darkgray;
+}
+.table-gallery ul{
+    padding: 0px;
+}
+.table-gallery td{
+    padding-right: 20px;
+
+
+}
+button{
+        position: fixed;
+            top: 101px;
+            left: 91%;
+            padding: 11px 17px;
+            border-radius: 9px;
+            background-color: rgb(255, 255, 255, 0.5);
+            border: 0px;
+            cursor: pointer;
+}           
+button:hover{
+    background-color: #fff;
+}            
+.sign-up{
+    padding: 60px;
+    display: flex;
+    background-color: #111;
+}
+.sign-up div{
+    flex: 1;
+}
+.sign-up h1{
+    color:#CB218E;
+    font-size: 22px;
+    padding: 1px 3px 15px 12px;
+}
+form{
+    color:darkgray;
+    padding: 10px;
+    line-height: 29px;
+}
+form label{
+    font-weight: 100;
+    margin: 5px 3px;
+}
+form input{
+    border: solid 1px;
+    border-radius: 5px;
+    outline:none;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+.sign-up-button{
+    padding: 8px 40px;
+    background-color: #44d62c;;
+}
+.sign-up-button:hover{
+    color: #fff;
+    background-color: darkgreen;
+}
+form input::placeholder{
+    color: #CB218E;
+}
+form select{
+    color: #CB218E;
+}
+.line{
+    padding:0px 50px;
+    border: solid 1px;
+    background-color: #111;
+}
+
+.contact{
+    padding: 50px;
+    color: darkgray;
+    text-align: end;
+    line-height: 2;
+    letter-spacing: 1px;
+   
+}
+.contact h5{
+    padding-right: 132px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.contact h6{
+    font-size: 12px;
+    font-weight: 100;
+}
+.social{
+    background-color: #111;
+    padding: 40px;
+    display: flex;
+}
+.social h1{
+    color: darkgray;
+    font-size: 11px;
+    margin-top: 15px;
+}
+.social-icons{
+    display: flex;
+}
+.icon-img {
+    margin-right: 3px;
+    padding: 7px;
+    border-radius: 32px;
+    background-color: darkgrey;
+}
+.social-icons{
+    margin-left: 595px;
+}
+.age{
+        width: 124px;
+            padding: 6px;
+        }
